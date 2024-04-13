@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Source-Code-Pro;
+    src: url("./SourceCodePro-Black.ttf") format("opentype");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: Source-Code-Pro;
+    src: url("./SourceCodePro-Medium.ttf") format("opentype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Source-Code-Pro;
+    src: url("./SourceCodePro-Regular.ttf") format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Source-Code-Pro;
+    src: url("./SourceCodePro-Light.ttf") format("opentype");
+    font-weight: 300;
+}

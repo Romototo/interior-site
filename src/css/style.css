@@ -1,0 +1,70 @@
+@import url("../fonts/SourceCodePro/stylesheets.css");
+
+:root {
+    --white-rgb: 255, 255, 255;
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Souce-Code-Pro;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 900;   
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    position: relative;
+}
+
+.header__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 80px 140px;
+
+    color: white;
+    text-align: center;
+
+    background: rgba(var(--white-rgb), .3);
+    border: 1px solid rgba(var(--white-rgb), .75);
+    backdrop-filter: blur(10px);
+}
+
+.header__title {
+    width: fit-content;
+}
+
+.header__background-img{
+    & img{
+        object-fit: cover;
+        width: 100%;
+    }
+}
